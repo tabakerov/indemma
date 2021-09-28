@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0EBDA52703679400E154E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDA42703679400E154E5 /* AppDelegate.swift */; };
+		CE0EBDA72703679400E154E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDA62703679400E154E5 /* SceneDelegate.swift */; };
+		CE0EBDA92703679400E154E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDA82703679400E154E5 /* ViewController.swift */; };
+		CE0EBDAC2703679400E154E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0EBDAA2703679400E154E5 /* Main.storyboard */; };
+		CE0EBDAE2703679500E154E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0EBDAD2703679500E154E5 /* Assets.xcassets */; };
+		CE0EBDB12703679500E154E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0EBDAF2703679500E154E5 /* LaunchScreen.storyboard */; };
+		CE0EBDBC2703679600E154E5 /* ElysiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDBB2703679600E154E5 /* ElysiumTests.swift */; };
+		CE0EBDC62703679600E154E5 /* ElysiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDC52703679600E154E5 /* ElysiumUITests.swift */; };
+		CE0EBDC82703679600E154E5 /* ElysiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDC72703679600E154E5 /* ElysiumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0EBDB82703679500E154E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0EBD992703679400E154E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0EBDA02703679400E154E5;
+			remoteInfo = Elysium;
+		};
+		CE0EBDC22703679600E154E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0EBD992703679400E154E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0EBDA02703679400E154E5;
+			remoteInfo = Elysium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE0EBDA12703679400E154E5 /* Elysium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elysium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0EBDA42703679400E154E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE0EBDA62703679400E154E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE0EBDA82703679400E154E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE0EBDAB2703679400E154E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE0EBDAD2703679500E154E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0EBDB02703679500E154E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE0EBDB22703679500E154E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0EBDB72703679500E154E5 /* ElysiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElysiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0EBDBB2703679600E154E5 /* ElysiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiumTests.swift; sourceTree = "<group>"; };
+		CE0EBDC12703679600E154E5 /* ElysiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElysiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0EBDC52703679600E154E5 /* ElysiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiumUITests.swift; sourceTree = "<group>"; };
+		CE0EBDC72703679600E154E5 /* ElysiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE0EBD9E2703679400E154E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0EBDB42703679500E154E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0EBDBE2703679600E154E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE0EBD982703679400E154E5 = {
+			isa = PBXGroup;
+			children = (
+				CE0EBDA32703679400E154E5 /* Elysium */,
+				CE0EBDBA2703679600E154E5 /* ElysiumTests */,
+				CE0EBDC42703679600E154E5 /* ElysiumUITests */,
+				CE0EBDA22703679400E154E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE0EBDA22703679400E154E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EBDA12703679400E154E5 /* Elysium.app */,
+				CE0EBDB72703679500E154E5 /* ElysiumTests.xctest */,
+				CE0EBDC12703679600E154E5 /* ElysiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE0EBDA32703679400E154E5 /* Elysium */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EBDA42703679400E154E5 /* AppDelegate.swift */,
+				CE0EBDA62703679400E154E5 /* SceneDelegate.swift */,
+				CE0EBDA82703679400E154E5 /* ViewController.swift */,
+				CE0EBDAA2703679400E154E5 /* Main.storyboard */,
+				CE0EBDAD2703679500E154E5 /* Assets.xcassets */,
+				CE0EBDAF2703679500E154E5 /* LaunchScreen.storyboard */,
+				CE0EBDB22703679500E154E5 /* Info.plist */,
+			);
+			path = Elysium;
+			sourceTree = "<group>";
+		};
+		CE0EBDBA2703679600E154E5 /* ElysiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EBDBB2703679600E154E5 /* ElysiumTests.swift */,
+			);
+			path = ElysiumTests;
+			sourceTree = "<group>";
+		};
+		CE0EBDC42703679600E154E5 /* ElysiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EBDC52703679600E154E5 /* ElysiumUITests.swift */,
+				CE0EBDC72703679600E154E5 /* ElysiumUITestsLaunchTests.swift */,
+			);
+			path = ElysiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE0EBDA02703679400E154E5 /* Elysium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0EBDCB2703679600E154E5 /* Build configuration list for PBXNativeTarget "Elysium" */;
+			buildPhases = (
+				CE0EBD9D2703679400E154E5 /* Sources */,
+				CE0EBD9E2703679400E154E5 /* Frameworks */,
+				CE0EBD9F2703679400E154E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elysium;
+			productName = Elysium;
+			productReference = CE0EBDA12703679400E154E5 /* Elysium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE0EBDB62703679500E154E5 /* ElysiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0EBDCE2703679600E154E5 /* Build configuration list for PBXNativeTarget "ElysiumTests" */;
+			buildPhases = (
+				CE0EBDB32703679500E154E5 /* Sources */,
+				CE0EBDB42703679500E154E5 /* Frameworks */,
+				CE0EBDB52703679500E154E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0EBDB92703679500E154E5 /* PBXTargetDependency */,
+			);
+			name = ElysiumTests;
+			productName = ElysiumTests;
+			productReference = CE0EBDB72703679500E154E5 /* ElysiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE0EBDC02703679600E154E5 /* ElysiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0EBDD12703679600E154E5 /* Build configuration list for PBXNativeTarget "ElysiumUITests" */;
+			buildPhases = (
+				CE0EBDBD2703679600E154E5 /* Sources */,
+				CE0EBDBE2703679600E154E5 /* Frameworks */,
+				CE0EBDBF2703679600E154E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0EBDC32703679600E154E5 /* PBXTargetDependency */,
+			);
+			name = ElysiumUITests;
+			productName = ElysiumUITests;
+			productReference = CE0EBDC12703679600E154E5 /* ElysiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE0EBD992703679400E154E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CE0EBDA02703679400E154E5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CE0EBDB62703679500E154E5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CE0EBDA02703679400E154E5;
+					};
+					CE0EBDC02703679600E154E5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CE0EBDA02703679400E154E5;
+					};
+				};
+			};
+			buildConfigurationList = CE0EBD9C2703679400E154E5 /* Build configuration list for PBXProject "Elysium" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE0EBD982703679400E154E5;
+			productRefGroup = CE0EBDA22703679400E154E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE0EBDA02703679400E154E5 /* Elysium */,
+				CE0EBDB62703679500E154E5 /* ElysiumTests */,
+				CE0EBDC02703679600E154E5 /* ElysiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE0EBD9F2703679400E154E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0EBDB12703679500E154E5 /* LaunchScreen.storyboard in Resources */,
+				CE0EBDAE2703679500E154E5 /* Assets.xcassets in Resources */,
+				CE0EBDAC2703679400E154E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0EBDB52703679500E154E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0EBDBF2703679600E154E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0EBD9D2703679400E154E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0EBDA92703679400E154E5 /* ViewController.swift in Sources */,
+				CE0EBDA52703679400E154E5 /* AppDelegate.swift in Sources */,
+				CE0EBDA72703679400E154E5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0EBDB32703679500E154E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0EBDBC2703679600E154E5 /* ElysiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0EBDBD2703679600E154E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0EBDC62703679600E154E5 /* ElysiumUITests.swift in Sources */,
+				CE0EBDC82703679600E154E5 /* ElysiumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0EBDB92703679500E154E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0EBDA02703679400E154E5 /* Elysium */;
+			targetProxy = CE0EBDB82703679500E154E5 /* PBXContainerItemProxy */;
+		};
+		CE0EBDC32703679600E154E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0EBDA02703679400E154E5 /* Elysium */;
+			targetProxy = CE0EBDC22703679600E154E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE0EBDAA2703679400E154E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0EBDAB2703679400E154E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE0EBDAF2703679500E154E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0EBDB02703679500E154E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0EBDC92703679600E154E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE0EBDCA2703679600E154E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE0EBDCC2703679600E154E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29V7M66778;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elysium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azazeo.Elysium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE0EBDCD2703679600E154E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29V7M66778;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elysium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azazeo.Elysium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE0EBDCF2703679600E154E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29V7M66778;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azazeo.ElysiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elysium.app/Elysium";
+			};
+			name = Debug;
+		};
+		CE0EBDD02703679600E154E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29V7M66778;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azazeo.ElysiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elysium.app/Elysium";
+			};
+			name = Release;
+		};
+		CE0EBDD22703679600E154E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29V7M66778;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azazeo.ElysiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elysium;
+			};
+			name = Debug;
+		};
+		CE0EBDD32703679600E154E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29V7M66778;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azazeo.ElysiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elysium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0EBD9C2703679400E154E5 /* Build configuration list for PBXProject "Elysium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0EBDC92703679600E154E5 /* Debug */,
+				CE0EBDCA2703679600E154E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0EBDCB2703679600E154E5 /* Build configuration list for PBXNativeTarget "Elysium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0EBDCC2703679600E154E5 /* Debug */,
+				CE0EBDCD2703679600E154E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0EBDCE2703679600E154E5 /* Build configuration list for PBXNativeTarget "ElysiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0EBDCF2703679600E154E5 /* Debug */,
+				CE0EBDD02703679600E154E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0EBDD12703679600E154E5 /* Build configuration list for PBXNativeTarget "ElysiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0EBDD22703679600E154E5 /* Debug */,
+				CE0EBDD32703679600E154E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE0EBD992703679400E154E5 /* Project object */;
+}
