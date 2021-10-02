@@ -16,6 +16,10 @@
 		CE0EBDBC2703679600E154E5 /* ElysiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDBB2703679600E154E5 /* ElysiumTests.swift */; };
 		CE0EBDC62703679600E154E5 /* ElysiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDC52703679600E154E5 /* ElysiumUITests.swift */; };
 		CE0EBDC82703679600E154E5 /* ElysiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDC72703679600E154E5 /* ElysiumUITestsLaunchTests.swift */; };
+		CE0EBDD727036A5D00E154E5 /* BasicPhysarumRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDD627036A5D00E154E5 /* BasicPhysarumRenderer.swift */; };
+		CE0EBDD927036F6B00E154E5 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDD827036F6B00E154E5 /* Primitive.swift */; };
+		CE0EBDDB270371AB00E154E5 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = CE0EBDDA270371AB00E154E5 /* Shaders.metal */; };
+		CE4DCB1A2708F8A90006920B /* TwoColorPhysarumRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DCB192708F8A90006920B /* TwoColorPhysarumRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		CE0EBDC12703679600E154E5 /* ElysiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElysiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0EBDC52703679600E154E5 /* ElysiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiumUITests.swift; sourceTree = "<group>"; };
 		CE0EBDC72703679600E154E5 /* ElysiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE0EBDD627036A5D00E154E5 /* BasicPhysarumRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPhysarumRenderer.swift; sourceTree = "<group>"; };
+		CE0EBDD827036F6B00E154E5 /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		CE0EBDDA270371AB00E154E5 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		CE4DCB192708F8A90006920B /* TwoColorPhysarumRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColorPhysarumRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				CE0EBDAD2703679500E154E5 /* Assets.xcassets */,
 				CE0EBDAF2703679500E154E5 /* LaunchScreen.storyboard */,
 				CE0EBDB22703679500E154E5 /* Info.plist */,
+				CE0EBDD627036A5D00E154E5 /* BasicPhysarumRenderer.swift */,
+				CE0EBDDA270371AB00E154E5 /* Shaders.metal */,
+				CE0EBDD827036F6B00E154E5 /* Primitive.swift */,
+				CE4DCB192708F8A90006920B /* TwoColorPhysarumRenderer.swift */,
 			);
 			path = Elysium;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0EBDDB270371AB00E154E5 /* Shaders.metal in Sources */,
 				CE0EBDA92703679400E154E5 /* ViewController.swift in Sources */,
 				CE0EBDA52703679400E154E5 /* AppDelegate.swift in Sources */,
+				CE0EBDD727036A5D00E154E5 /* BasicPhysarumRenderer.swift in Sources */,
 				CE0EBDA72703679400E154E5 /* SceneDelegate.swift in Sources */,
+				CE0EBDD927036F6B00E154E5 /* Primitive.swift in Sources */,
+				CE4DCB1A2708F8A90006920B /* TwoColorPhysarumRenderer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
